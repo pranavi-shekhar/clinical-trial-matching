@@ -1,0 +1,299 @@
+PROTOCOL_NO,TITLE,NCT_ID,SHORT_TITLE,INVESTIGATOR_NAME,STATUS,ELIGIBILITY,DETAILED_ELIGIBILITY,DESCRIPTION,PHASE_DESC,TREATMENT_TYPE_DESC,AGE_DESCRIPTION,SCOPE_DESC,LOCATION_NAME,SUMMARY,MODIFIED_DATE,DEPARTMENT_NAME,SPONSOR_NAMES/SPONSOR_NAME/0,SPONSOR_NAMES/SPONSOR_NAME/1,DISEASE_SITES/DISEASE_SITE/0,DISEASE_SITES/DISEASE_SITE/1,DISEASE_SITES/DISEASE_SITE/2,DISEASE_SITES/DISEASE_SITE/3,DISEASE_SITES/DISEASE_SITE/4,DISEASE_SITES/DISEASE_SITE/5,DISEASE_SITES/DISEASE_SITE/6,DISEASE_SITES/DISEASE_SITE/7,SPONSOR_NAMES/SPONSOR_NAME/2,DISEASE_SITES/DISEASE_SITE/8,DISEASE_SITES/DISEASE_SITE/9,DISEASE_SITES/DISEASE_SITE/10,DISEASE_SITES/DISEASE_SITE/11,DISEASE_SITES/DISEASE_SITE/12,DISEASE_SITES/DISEASE_SITE/13,DISEASE_SITES/DISEASE_SITE/14,DISEASE_SITES/DISEASE_SITE/15,DISEASE_SITES/DISEASE_SITE/16,DISEASE_SITES/DISEASE_SITE/17,DISEASE_SITES/DISEASE_SITE/18,DISEASE_SITES/DISEASE_SITE/19,DISEASE_SITES/DISEASE_SITE/20,DISEASE_SITES/DISEASE_SITE/21,DISEASE_SITES/DISEASE_SITE/22,DISEASE_SITES/DISEASE_SITE/23,DISEASE_SITES/DISEASE_SITE/24,DISEASE_SITES/DISEASE_SITE/25,DISEASE_SITES/DISEASE_SITE/26,DISEASE_SITES/DISEASE_SITE/27,DISEASE_SITES/DISEASE_SITE/28,DISEASE_SITES/DISEASE_SITE/29,DISEASE_SITES/DISEASE_SITE/30,DISEASE_SITES/DISEASE_SITE/31,DISEASE_SITES/DISEASE_SITE/32,DISEASE_SITES/DISEASE_SITE/33,DISEASE_SITES/DISEASE_SITE/34,SPONSOR_NAMES/SPONSOR_NAME/3,DISEASE_SITES/DISEASE_SITE/35,DISEASE_SITES/DISEASE_SITE/36,DISEASE_SITES/DISEASE_SITE/37,DISEASE_SITES/DISEASE_SITE/38,DISEASE_SITES/DISEASE_SITE/39,DISEASE_SITES/DISEASE_SITE/40,DISEASE_SITES/DISEASE_SITE/41,THERAPY_NAMES/THERAPY_NAME/0,THERAPY_NAMES/THERAPY_NAME/1,THERAPY_NAMES/THERAPY_NAME/2,DRUG_NAMES/DRUG_NAME/0,DRUG_NAMES/DRUG_NAME/1,DRUG_NAMES/DRUG_NAME/2,DRUG_NAMES/DRUG_NAME/3,DRUG_NAMES/DRUG_NAME/4
+NRG-HN001,Randomized Phase II and Phase III Studies of Individualized Treatment for Nasopharyngeal Carcinoma Based on Biomarker Epstein Barr Virus (EBV) Deoxyribonucleic Acid (DNA),NCT02135042,Phase2/3 study of Individualized Treatment for Nasopharyngeal Carcinoma Based on Biomarker EBV DNA,Rupali Nabar,OPEN TO ACCRUAL,"18 Years and older   (Adult, Older Adult)","Inclusion Criteria:
+
+Biopsy proven (from primary lesion and/or lymph nodes) diagnosis of cancer of the nasopharynx
+Sites are required to complete Step 1 registration before submitting specimens for EBV DNA analysis.
+
+Patients must have detectable pretreatment plasma EBV DNA, determined by the central lab prior to Step 2 registration (see Section 10.2 for details of specimen submission).
+For patients who have detectable plasma EBV DNA tested at one of the credentialed central labs (listed on the EBV DNA Testing Specimen Transmittal form) within 28 days prior to Step 1 registration: that test result can be used for eligibility without the need for re-testing. To use this test result for eligibility, the central lab must enter the test result through the pathology portal, and the site must follow the instructions in Section 5.4.
+Stage II-IVB disease (AJCC, 7th ed.) with no evidence of distant metastasis, based upon the following minimum diagnostic workup:
+
+History/physical examination by a Medical Oncologist or Clinical Oncologist or Radiation Oncologist or ENT, which must include an endoscopic evaluation, a complete list of current medications, and assessment of weight and weight loss in the past 6 months within 21 days prior to registration;
+Evaluation of tumor extent required within 28 days prior to registration:
+MRI of the nasopharynx and neck; or CT of the nasopharynx and neck with &#8804; 3 mm contiguous slices with contrast and bone windows (to evaluate base of skull involvement).
+Note: If a treatment planning CT scan is used, it must be with &#8804; 3 mm contiguous slices with contrast and be read by a radiologist.
+
+Exclusion Criteria:
+
+Prior invasive malignancy (except node negative, non-melanomatous skin cancer) unless disease free for a minimum of 1095 days (3 years) (for example, carcinoma in situ of the breast, oral cavity, or cervix are all permissible)
+Prior systemic chemotherapy for the study cancer; note that prior chemotherapy for a different cancer is allowable; however, at least 6-weeks recovery is necessary if the last regimen included nitrosourea or mitomycin
+Prior radiotherapy to the region of the study cancer that would result in overlap of radiation therapy fields
+Patients with hearing loss assessed to be primarily sensorineural in nature, requiring a hearing aid, or intervention (i.e. interfering in a clinically significant way with activities of daily living); a conductive hearing loss that is tumor-related is allowed
+&#8805; Grade 2 peripheral sensory neuropathy (CTCAE, v. 4.0)
+Severe, active co-morbidity, defined as follows:
+
+Major medical or psychiatric illness, which in the investigator's opinion would interfere with the completion of therapy and follow up or with full understanding of the risks and potential complications of the therapy
+Unstable angina and/or uncontrolled congestive heart failure within the past 6 months
+Myocardial infarction within the last 6 months
+Acute bacterial or fungal infection requiring intravenous antibiotics at the time of registration; note that patients switched from IV antibiotics and currently on oral antibiotics whose infection is assessed to be adequately treated or controlled are eligible
+Chronic Obstructive Pulmonary Disease exacerbation or other respiratory illness requiring hospitalization or precluding study therapy within 30 days prior to registration
+Acquired Immune Deficiency Syndrome (AIDS) based upon current Centers for Disease Control and Prevention (CDC) definition; note, however, that Human Immunodeficiency Virus (HIV) testing is not required for entry into this protocol. The need to exclude patients with AIDS from this protocol is necessary because the treatments involved in this protocol may be significantly immunosuppressive.
+Pregnancy or women of childbearing potential and men who are sexually active and not willing/able to use medically acceptable forms of contraception","There are two study questions we are asking in this randomized phase II/III trial based on a blood biomarker, Epstein Barr virus (EBV) deoxyribonucleic acid (DNA) for locoregionally advanced non-metastatic nasopharyngeal cancer. All patients will first undergo standard concurrent chemotherapy and radiation therapy. When this standard treatment is completed, if there is no detectable EBV DNA in their plasma, then patients are randomized to either standard adjuvant cisplatin and fluorouracil chemotherapy or observation. If there is still detectable levels of plasma EBV DNA, patients will be randomized to standard cisplatin and fluorouracil chemotherapy versus gemcitabine and paclitaxel. Radiation therapy uses high energy x rays to kill tumor cells. Drugs used in chemotherapy, such as cisplatin, fluorouracil, gemcitabine hydrochloride, and paclitaxel work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping them from dividing, or by stopping them from spreading. It is not yet known whether giving cisplatin and fluorouracil is more effective than gemcitabine hydrochloride and paclitaxel after radiation therapy in treating patients with nasopharyngeal cancer.",II/III,Treatment,Adults,Local,,,2022-01-06T22:40:08,CFCCC,Radiation Therapy Oncology Group,NRG Oncology,"Lip, Oral Cavity and Pharynx",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+UCI-14-89,[BIOREPOSITORY] Hematologic Malignancies Biorepository for human research,,BIOREPOSITORY PROTOCOL EXEMPT FROM NCI REPORTING,Angela G Fleischman,OPEN TO ACCRUAL,Adult,"AM I ELIGIBLE TO PARTICIPATE IN THIS STUDY?
+Please note this may not be a complete list of eligibility criteria. We have included a few examples of study criteria to help you better understand how your eligibility in the study will be determined; your study team will go through the study eligibility criteria with you to verify if you qualify for participation in this study.
+
+Inclusion Requirements
+You can participate in this study if you have or are being evaluated for a blood disorder
+
+Exclusion Requirements
+You cannot participate in this study if you are pregnant.","UC Irvine Medical Center is both a treatment and a research hospital. As a patient here, you may be treated
+by some doctors who are also researchers performing studies to improve treatments currently available.
+
+Scientists and clinicians at this institution are working together to discover new ways to treat cancer and
+new ways to make current treatments safer and more effective. In order to conduct this research, we need
+to study samples of normal and disease tissue obtained from normal volunteers and our patients. In order
+to minimize the discomfort and risk to subjects, we are seeking to collect tissue that is left over from studies
+that are required for your evaluation and care and are already being done. In certain circumstances (blood
+draw and bone marrow aspiration) we are seeking to collect a small amount of tissue in addition to the
+sample that would be collected for your routine care. Except for giving samples of blood, you will not be
+asked to undergo any procedure solely for the purpose of obtaining a sample for this study. 
+
+You are being asked to take part in this research study because you have or are being evaluated for a
+hematologic malignancy, bone marrow disorder, or immune system disorder.
+
+This research study involves the collection and storage of blood and other tissue for later research testing.
+It is not currently known how samples donated to the repository will be used at this time. These research tests may be developed during the time you are a patient at UC Irvine Medical Center, or in some cases, years later. Any researcher at UCI or their collaborators (including for-profit entities) may request permission to use samples from the repository. Frozen de-identified samples will be provided to researchers after their plans have been evaluated and approved by the UCI review board that oversees human research (IRB). These tests may provide additional information that will be helpful in understanding cancer and other diseases, but it is unlikely that what we learn from these studies will benefit you directly.
+
+These studies may benefit other patients in the future. The research performed on these samples may
+include the study of genetics, including the subject&#8217;s DNA code, parts or the DNA code or even whole
+genome sequencing. Samples from the repository will not be used to create cell lines.",N/A,Other,Adults,Local,,,2021-03-24T10:07:16,CFCCC,UCI,,Non-Hodgkin's Lymphoma,Mycosis Fungoides,Multiple Myeloma,Lymphoid Leukemia,"Leukemia, other",Myeloid and Monocytic Leukemia,Other Hematopoietic,Hodgkin's Lymphoma,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+UCI-15-40,[EXEMPT - REGISTRY TRIAL] Prospective and Retrospective Study of Outcomes for Patients with Malignant Melanoma,NCT99999999,Prospective and Retrospective Study of Outcomes for Patients with Malignant Melanoma,Maki Yamamoto,OPEN TO ACCRUAL,"You are eligible to participate in this study if you are at least 18 years old and have a confirmed diagnosis of 
+melanoma.","You are eligible to participate in this study if you are at least 18 years old and have a confirmed diagnosis of 
+melanoma.","Advances in the treatment of malignant melanoma are being developed in terms of medical information on
+diagnosis, surgery, adjuvant therapy and post-treatment surveillance. The purpose of this protocol would be to
+create a data repository by collecting key data elements to watch for patterns within melanoma to potentially
+help future patients. By collecting this data, we intend to assess trends by watching for patterns of melanoma
+inclusive of treatment, criteria for staging, time to recurrence, population, patients at risk for recurrence,
+survival of patients, and time to death. The collection of this data will include a retrospective collection of
+historical patients and a prospective collection from new patients within the melanoma UC Irvine Health clinics",N/A,Basic Science,Adults,,,,2021-02-12T11:45:58,CFCCC,UCI,,"Melanoma, Skin",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ALLIANCE-A071401,Phase II Trial of SMO/AKT/NF2/CDK Inhibitors in Progressive Meningiomas with SMO/ AKT/ NF2 /CDK Pathway Mutations,NCT02523014,Ph II Trial of SMO/AKT/NF2 Inhibitors in Progressive Meningiomas w/ SMO/ AKT/ NF2 Mutations,Daniela Bota,OPEN TO ACCRUAL,Adults,"Inclusion Criteria: 
+- Histologically proven intracranial meningioma as documented by 
+central pathology review
+- Presence of SMO, PTCH1, NF2, CDKN2A, AKT1, PIK3CA, PTEN 
+mutations, CDKN2A copy number loss, CDK4, CDK6, CCND1, CCND2, CCND3, or CCNE1 
+copy number gain in tumor sample as documented specifically by the central laboratory
+- Male or female who are not pregnant and not nursing
+
+Exclusion Criteria:
+- Patients who have active bacterial infection
+- Patients who have history of heart diseases as described by the study protocol
+- Patients who have uncontrolled hypertension","This phase II trial studies how well vismodegib, focal adhesion kinase (FAK) inhibitor GSK2256098, and capivasertib work in treating patients with meningioma that is growing, spreading, or getting worse (progressive). Vismodegib, FAK inhibitor GSK2256098, capivasertib, and abemaciclib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth.",II,Treatment,Adults,National,,,2022-06-17T16:20:02,CFCCC,Alliance,NRG Oncology,Brain and Nervous System,,,,,,,,SWOG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+UCI-16-79,"A Phase I/II, Open-Label, Multi-Center, First-in-Human Study of the Safety, Tolerability, Pharmacokinetics, and Anti-Tumor Activity of TPX-0005 in Patients with Advanced Solid Tumors Harboring ALK, ROS1, or NTRK1-3 Rearrangements (TRIDENT-1)",NCT03093116,Ph I/II Study of TPX-0005 for ALK/ROS1/NTRK1-3 Rearrangements in Adv Solid Tumors (TRIDENT-1),Misako Nagasaka,OPEN TO ACCRUAL,Adults,"Please note this may not be a complete list of eligibility criteria. We have included a few examples of study criteria to help you better understand how your eligibility in the study will be determined; your study team will go through the study eligibility criteria with you to verify if you qualify for participation in this study.
+
+Inclusion Requirements
+You can participate in this study if you 
+&#8226;	Are a male or female subject, 18 years of age or older 
+&#8226;	Are able to adhere to the study visit schedule and other protocol requirements
+&#8226;	Have a confirmed diagnosis of locally advanced or metastatic solid tumor that has a specific gene rearrangement
+
+Exclusion Requirements 
+You cannot participate in this study if you
+&#8226;	Are pregnant or breastfeeding, or intending to become pregnant during the study 
+&#8226;	Are currently participating in another therapeutic clinical trial
+&#8226;	Have a known active infection (bacterial, fungal, or viral, including human immunodeficiency virus positivity).","This study has 2 parts (Phase 1 and Phase 2): 
+&#8226;	Phase 1: Phase 1 of this research study is currently ongoing. It was the first time that the study drug, reprotrectinib, was given to humans.
+o	The purpose of Phase 1 was to determine the dose of repotrectinib to use in Phase 2 of the study.  Phase 1 look at the side effects and response of tumors to different doses of repotrectinib. Phase 1 also looked at how different foods affect how repotrectinib gets into the body. Phase 1 includes the following sub-studies:
+&#61607;	Phase 1a, where the study drug is given under fasting conditions. You will need to fast 1 hour before and 2 hours after study drug administration. As of November 5th 2018, this part of the study is completed and will not enroll any new subjects
+&#61607;	Phase 1b is a Food Effect Sub-Study (a study within a study). You may be asked to participate in the Food Effect Sub-Study. The purpose of the Food Effect Sub-Study is to determine the effect of high-fat, high-calorie food on a single dose of repotrectinib (how much and how fast repotrectinib gets into the body after a meal). As of November 5th 2018, this part of the study is completed and will not enroll any new subjects.
+&#61607;	Phase 1 also includes a study of repotrectinib when administered continuously with food, where you will take every dose of the study drug with a standard meal, called Phase 1c. 
+&#8226;	Phase 2: You are being asked to participate in Phase 2 of this study (not Phase 1). The purpose of Phase 2 is to determine, more specifically, whether repotrectinib works, especially in groups of subjects who have the various tumor gene rearrangements mentioned above. Phase 2 will also continue to look at the side effects as well as how repotrectinib is absorbed into the body.
+The Phase 2 portion of the study will evaluate the anti-cancer activity of repotrectinib at the dose listed below:
+&#8226;	160 mg once a day for 14 days that may increase to 160 mg twice a day based on the drug&#8217;s tolerability 
+The study doctor will assess and decide if your dose should be increased or decreased.
+ No study procedures related to this study will be performed until you have signed this Informed Consent Form. A copy of the signed Informed Consent Form will be given to you to keep.",I/II,Treatment,Adults,Local,,,2021-02-08T16:27:33,CFCCC,Turning Point Therapeutics,"INC Research, Inc. (Raleigh, North Carolina)",Brain and Nervous System,Breast,Colon,Thyroid,Rectum,Other Digestive Organ,"Lip, Oral Cavity and Pharynx","Melanoma, Skin",,Other Skin,Lung,Urinary Bladder,Kidney,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+UCI-16-56,"Phase II, Single Arm Study Of NOVOTTF-200A In Bevacizumab-Naive Subjects With Recurrent WHO Grade III Malignant Astrocytoma",NCT03450850,Ph II Study of Optune in Bevacizumab-Naïve Subjects w/ Recurrent WHO Grade III Malignant Astrocytoma,Daniela Bota,OPEN TO ACCRUAL,Adults 21 years of age and older,"Please note this may not be a complete list of eligibility criteria. We have included a few examples of study criteria to help you better understand how your eligibility in the study will be determined; your study team will go through the study eligibility criteria with you to verify if you qualify for participation in this study.
+ 
+Inclusion Requirements
+You can participate in this study if you:
+1.	Are greater than 21 years of age
+2.	Have been diagnosed with brain tumors Anaplastic Astrocytoma (AA)
+3.	Have not been treated with Bevacizumab or any anti-angiogenesis drug prior to treatment.
+
+Exclusion Requirements 
+You cannot participate in this study if you:
+1.	Are pregnant or breastfeeding
+2.	Have had chemotherapy within 4 weeks of starting this study
+3.	Have any condition the study doctor feels increase the risk to you by participating on this study.",This is a Phase 2 study in subjects with WHO Grade III Anaplastic Astrocytoma (G3 astrocytoma) who had progressive disease during first or second line treatment and who have not previously received any BEV (Bevacizumab) or any experimental agents.,II,Treatment,Adults,Local,,,2021-02-12T13:18:01,CFCCC,NovoCure Ltd.,UCI,Brain and Nervous System,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NRG-BN003,Phase III Trial of Observation versus Irradiation for a Gross Totally Resected Grade II Meningioma,NCT03180268,Ph III Trial of Observation Vs Irradiation for a Gross Totally Resected Grade II Meningioma,Xiao-Tang Kong,OPEN TO ACCRUAL,Adults,"Inclusion Criteria: 
+- The patient must have a newly diagnosed unifocal intracranial meningioma, gross totally resected, and histologically confirmed as WHO grade II based upon pathology findings at the enrolling institution; WHO grade will be assigned according to WHO 2016 criteria
+- Gross total resection (GTR) will be interpreted as modified Simpson grade 1-3 without gross residual dural-based or extradural tumor; GTR must be confirmed both by modified Simpson grade and by post-operative magnetic resonance imaging (MRI) findings
+- The patient or a legally authorized representative must provide study-specific informed consent prior to study entry
+
+Exclusion Criteria: 
+- Definitive evidence of metastatic meningioma
+- Prior invasive malignancy (except non-melanomatous skin cancer) unless disease free for a minimum of 3 years (carcinoma in situ of the breast, oral cavity, cervix, melanoma in situ, or other non-invasive malignancies are permissible)
+- Previous radiotherapy to the scalp, cranium, brain, or skull base and radiation-induced meningiomas",This randomized phase III trial studies how well radiation therapy works compared with observation in treating patients with newly diagnosed grade II meningioma that has been completely removed by surgery. Radiation therapy uses high energy x-rays to kill tumor cells and shrink tumors.,III,Treatment,Adults,National,,,2021-05-26T13:28:34,CFCCC,NRG Oncology,,Brain and Nervous System,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ALLIANCE-A071601,Phase II Trial of BRAF/MEK Inhibitors in Papillary Craniopharyngiomas,NCT03224767,Ph II Trial of BRAF/MEK Inhibitors in Papillary Craniopharyngiomas,Yoon Jae Choi,OPEN TO ACCRUAL,Adults,"Inclusion Criteria: 
+- Pre-registration: Patients must have local diagnosis of papillary craniopharyngioma and have tissue slides available for submission to central pathology review; central pathology review will include immunohistochemistry (IHC) testing for BRAF V600E mutation (VE1 clone) and beta-catenin IHC (membranous, non-nuclear pattern) if needed to confirm diagnosis of papillary craniopharyngioma
+- Histologically proven papillary craniopharyngioma as documented by central pathology review with positive BRAF V600E mutation by IHC
+- Not pregnant and not nursing; for women of childbearing potential only, a negative pregnancy test done =< 7 days prior to registration is required",This phase II trial studies how well vemurafenib and cobimetinib work in treating patients with BRAF V600E mutation positive craniopharyngioma. Vemurafenib and cobimetinib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth,II,Treatment,Adults,National,,,2021-05-26T13:45:24,CFCCC,Alliance,,Brain and Nervous System,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+UCI-18-21,"A Phase I/II Study of Oral LOXO-292 in Patients with Advanced Solid Tumors, Including RET Fusion-Positive Solid Tumors, Medullary Thyroid Cancer, and Other Tumors with RET Activation (LIBRETTO-001).",NCT03157128,"Ph I/II LOXO-292 for RET Fusion+ Solid Tumors, Medullary Thyroid Ca & Other Tumors w/RET Activation",Misako Nagasaka,OPEN TO ACCRUAL,"18 Years and older   (Adult, Older Adult)","Key Inclusion Criteria:
+
+For Phase 1:
+
+Participants with a locally advanced or metastatic solid tumor that:
+Has progressed on or is intolerant to standard therapy, or
+For which no standard therapy exists, or in the opinion of the Investigator, are not candidates for or would be unlikely to tolerate or derive significant clinical benefit from standard therapy, or
+Decline standard therapy
+Prior multikinase inhibitors (MKIs) with anti-RET activity are allowed
+A RET gene alteration is not required initially. Once adequate PK exposure is achieved, evidence of RET gene alteration in tumor and/or blood is required as identified through molecular assays, as performed for clinical evaluation
+Measurable or non-measurable disease as determined by RECIST 1.1 or RANO as appropriate to tumor type
+Eastern Cooperative Oncology Group (ECOG) score of 0, 1, or 2 or Lansky Performance Score (LPS) greater than or equal to (&#8805;) 40 percent (%) (age less than [<] 16 years) with no sudden deterioration 2 weeks prior to the first dose of study treatment
+Adequate hematologic, hepatic and renal function
+Life expectancy of at least 3 months
+For Phase 2: As for phase 1 with the following modifications:
+
+For Cohort 1: Participants must have received prior standard therapy appropriate for their tumor type and stage of disease, or in the opinion of the Investigator, would be unlikely to tolerate or derive clinical benefit from appropriate standard of care therapy
+Cohorts 1 and 2:
+
+Enrollment will be restricted to participants with evidence of a RET gene alteration in tumor
+At least one measurable lesion as defined by RECIST 1.1 or RANO, as appropriate to tumor type and not previously irradiated
+Cohorts 3 and 4: Enrollment closed
+Cohort 5:
+
+Without measurable disease but otherwise meet criteria for Cohorts 1 and 2;
+MTC syndrome spectrum cancers (e.g., MTC, pheochromocytoma), cancers with neuroendocrine features/differentiation, or poorly differentiated thyroid cancers with other RET alteration/activation may be allowed with prior Sponsor approval;
+cfDNA positive for a RET gene alteration not known to be present in a tumor sample
+Cohort 6: Participants who otherwise are eligible for Cohorts 1, 2 or 5 who discontinued another RET inhibitor due to intolerance may be eligible with prior Sponsor approval
+Cohort 7: Participants must have a histologically confirmed stage IB-IIIA NSCLC by AJCC (The American Joint Committee on Cancer) version 8. The tumor must have been deemed resectable by a thoracic surgeon, the participant must be determined to be medically operable based on the determination of a thoracic surgeon, and the participant must not have received prior systemic therapy, including prior radiation therapy, for NSCLC.
+
+Key Exclusion Criteria (Phase 1 and Phase 2):
+
+Phase 2 Cohorts 1 and 2: an additional known oncogenic driver
+Cohorts 3 and 4: Enrollment closed
+Cohorts 1, 2 and 5: prior treatment with a selective RET inhibitor Notes: Participants otherwise eligible for Cohorts 1, 2, and 5 who discontinued another selective RET inhibitor may be eligible for Phase 2 Cohort 6 with prior Sponsor approval
+Investigational agent or anticancer therapy (including chemotherapy, biologic therapy, immunotherapy, anticancer Chinese medicine or other anticancer herbal remedy) within 5 half-lives or 2 weeks (whichever is shorter) prior to planned start of LOXO-292 (selpercatinib). In addition, no concurrent investigational anti-cancer therapy is permitted Note: Potential exception for this exclusion criterion will require a valid scientific justification and approval from the Sponsor
+Major surgery (excluding placement of vascular access) within 4 weeks prior to planned start of LOXO-292 (selpercatinib)","This is an open-label, first-in-human study designed to evaluate the safety, tolerability, pharmacokinetics (PK) and preliminary anti-tumor activity of selpercatinib (also known as LOXO-292) administered orally to participants with advanced solid tumors, including rearranged during transfection (RET)-fusion-positive solid tumors, medullary thyroid cancer (MTC) and other tumors with RET activation.",I/II,Treatment,Adults,Local,,,2022-01-05T21:24:26,CFCCC,"Loxo Oncology, Inc.",,Rectum,Anus,Liver,Other Respiratory and Intrathoracic Organs,Other Skin,Kaposi's Sarcoma,Pancreas,Other Male Genital,,Kidney,Brain and Nervous System,Stomach,Colon,Other Digestive Organ,Bones and Joints,Ovary,Eye and Orbit,"Lip, Oral Cavity and Pharynx",Esophagus,Mycosis Fungoides,Other Female Genital,Other Endocrine System,"Melanoma, Skin",Breast,Larynx,Lung,Soft Tissue,Thyroid,Ill-Defined Sites,Corpus Uteri,Prostate,Unknown Sites,Cervix Uteri,Bladder,Small Intestine,Other Urinary,,,,,,,,,,,,,,,,
+UCI-18-64,"An Open-Label, Multicenter, Phase I/II Study of RP1 as a Single Agent and in Combination with PD1 Blockade in Patients with Solid Tumors",NCT03767348,Phase I/II Study of RP1 as a Single Agent & in Combo W/ PD1 Blockade in Pts W/ Solid Tumors,John P Fruehauf,OPEN TO ACCRUAL,Adult,"Please note this may not be a complete list of eligibility criteria. We have included a few examples of study criteria to help you better understand how your eligibility in the study will be determined; your study team will go through the study eligibility criteria with you to verify if you qualify for participation in this study.
+
+
+Inclusion Requirements 
+You can participate in this study if you 
+-At least one measurable and injectable lesion
+-Have provided a former tumor pathology specimen or be willing to supply a new tumor sample from a biopsy
+-Have a predicted life expectancy of &#8805; 3 months
+-Subjects with NMSC: has diagnosis of locally advanced or metastatic NMSC that are not considered treatable by surgery including basal cell carcinoma, cutaneous squamous cell carcinoma, basosquamous carcinoma, Merkel cell carcinoma and other non-melanoma skin cancers (per protocol) for whom anti-PD1/PD-L1 therapy is indicated, or have refused, become intolerant to or have no further therapy options available
+-Subjects with anti-PD1 failed cutaneous melanoma: has confirmed progressive disease while on anti-PD1 treatment for at least 8 weeks and documented BRAF mutation status
+-Subjects with anti-PD1 failed NSCLC: has confirmed progressive disease after no more than two prior systemic treatments including anti-PD1/PD-L1 treatment
+
+Exclusion Requirements 
+You cannot participate in this study if you 
+-Prior treatment with an oncolytic therapy
+-History of viral infections according to the protocol
+-Prior complications with herpes infections
+-Chronic use of anti-virals
+-Uncontrolled/untreated brain metastasis
+-History of interstitial lung disease
+-History of non-infectious pneumonitis
+-History of clinically significant cardiovascular disease","RPL-001-16 is a Phase 1/2, open label, dose escalation and expansion clinical study of RP1 alone and in combination with nivolumab in adult subjects with advanced and/or refractory solid tumors, to determine the maximum tolerated dose (MTD) and recommended Phase 2 dose (RP2D), as well as to evaluate preliminary efficacy.",I/II,Treatment,Adults,National,,,2023-03-03T13:37:44,CFCCC,Replimune Inc.,,Other Digestive Organ,Corpus Uteri,Brain and Nervous System,Thyroid,Colon,Soft Tissue,Eye and Orbit,Ill-Defined Sites,,Pancreas,Prostate,Urinary Bladder,"Melanoma, Skin","Lip, Oral Cavity and Pharynx",Larynx,Multiple Myeloma,Small Intestine,Lung,Other Respiratory and Intrathoracic Organs,Other Skin,Cervix Uteri,Breast,Anus,Liver,Mycosis Fungoides,Other Endocrine System,Stomach,Bones and Joints,Ovary,Other Male Genital,Other Urinary,Esophagus,Rectum,Other Female Genital,Kidney,Bladder,,,,,,,,,,,,,,,,
+UCI-18-78,A Phase I/II Multiple Expansion Cohort Trial of MRTX849 in Patients with Advanced Solid Tumors with KRAS G12C Mutation,NCT03785249,Ph I/II Study of MRTX849 in Pts w/ Adv Solid Tumors w/ KRAS G12C Mutation,Sai-Hong Ignatius Ou,OPEN TO ACCRUAL,"18 Years and older   (Adult, Older Adult)","Inclusion Criteria:
+
+Histologically confirmed diagnosis of a solid tumor malignancy with KRAS G12C mutation
+Unresectable or metastatic disease
+Standard treatment is not available or patient declines; first-line treatment for NSCLC for certain cohorts
+Adequate organ function
+
+Exclusion Criteria:
+
+History of intestinal disease or major gastric surgery or inability to swallow oral medications
+Other active cancer","This study will evaluate the safety, tolerability, drug levels, molecular effects, and clinical activity of MRTX849 (adagrasib) in patients with advanced solid tumors that have a KRAS G12C mutation",I/II,Treatment,Adults,Local,,,2022-01-05T21:20:47,CFCCC,"Mirati Therapeutics, Inc.",,Stomach,Small Intestine,Rectum,Other Endocrine System,Non-Hodgkin's Lymphoma,Anus,Myeloid and Monocytic Leukemia,Kaposi's Sarcoma,,"Melanoma, Skin",Other Digestive Organ,Lymphoid Leukemia,Lung,Breast,Colon,Pancreas,Hodgkin's Lymphoma,"Leukemia, other",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+UCI-18-84,"A Multicenter, Randomized, Double-Blinded, Placebo-Controlled, Phase III Trial of Adjuvant Avelumab (anti-PDL-1 Antibody) in Merkel Cell Carcinoma Patients with Clinically Detected Lymph Node Metastases",NCT03271372,Ph III Trial of Adjuvant Avelumab in Merkel Cell Ca Pts W/ Clinically Detected Lymph Node Metastases,Ling Gao,OPEN TO ACCRUAL,"-Medical records or confirmed diagnosis of Merkel Cell Carcinoma metastases in regional lymph node(s)
+-Life expectancy of more than 3 years
+-Must start study treatment no more than 120 days from date of therapy
+-Women of childbearing potential must hav","-Confirmation of the MCC diagnosis in the regional lymph node(s) is mandatory for trial participation
+-Estimated life expectancy greater than 3 years
+-Must start the study treatment no more than 120 days from the start date of definitive therapy
+-Women","This randomized phase III trial studies how well avelumab works in treating patients with Merkel cell cancer that has spread to the lymph nodes and have undergone surgery and/or radiation therapy. Immunotherapy with monoclonal antibodies, such as avelumab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells to grow and spread.",III,Treatment,Adults,Local,,,2021-02-09T16:29:22,CFCCC,University of Washington,,Other Skin,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+UCI-18-105,Phase II Study of the Combination of CPX-351 and Glasdegib in Previously Untreated Patients with Acute Myelogenous Leukemia with MDS Related Changes or Therapy-Related Acute Myeloid Leukemia,NCT04231851,PhII Study: Combo Glasdegib&Vyxeos in Pts w/ Ac Myelogeous Leuk w/ MDS or Ac Myeloid Leuk out of MDS,Deepa Jeyakumar,OPEN TO ACCRUAL,Adults,"Please note this may not be a complete list of eligibility criteria. We have included a few examples of study criteria to help you better understand how your eligibility in the study will be determined; your study team will go through the study eligibility criteria with you to verify if you qualify for participation in this study.
+
+Inclusion Requirements
+You can participate in this study if you satisfy the following criteria:
+- Have previously untreated AML with MDS-related changes or therapy-related AML
+- Are 18 years of age or older
+- Do not have any unstable heart conditions such as having a heart attack within the past 6
+months, uncontrolled heart failure, or uncontrolled irregular heartbeat
+
+Exclusion Requirements
+You cannot participate in this study if you satisfy the following criteria:
+- Previous treatment with either CPX-351 or Glasdegib
+- Any active infection or other cancers
+- Are pregnant or breastfeeding","This is a phase 2 single-arm, open-label clinical trial determining efficacy of CPX-351 in combination with Glasdegib in subjects with Acute Myelogenous Leukemia with myelodysplastic syndrome related changes or therapy-related acute myeloid leukemia.",II,Treatment,Adults,National,,,2021-02-12T12:49:37,CFCCC,UCI,"Jazz Pharmaceuticals, Inc.","Leukemia, other",Myeloid and Monocytic Leukemia,,,,,,,Pfizer Pharmaceutical Inc.,,,,,,,,,,,,,,,,,,,,,,,,,,,,UC Hematologic Malignancies Consortium,,,,,,,,,,,,,,,
+UCI-18-128,"A Phase I Open-Label, Dose Escalation Study of Pitavastatin in Combination with Venetoclax in Patients with Chronic Lymphocytic Leukemia or Acute Myeloid Leukemia",NCT04512105,A Phase I Study of Pitavastatin in Combination with Venetoclax for CLL or AML,Elizabeth A Brem,OPEN TO ACCRUAL,Adult,"Please note this may not be a complete list of eligibility criteria. We have included a few examples of study criteria to help you better understand how your eligibility in the study will be determined;the study team will go through the study eligibility criteria with you to verify if you qualify for participation in this study.
+
+Inclusion Requirements
+You can participate in this study if you satisfy the following criteria: 
+- At least 18 years of age
+- Confirmed diagnosis of CLL or AML
+- You are starting treatment with a regimen that includes VEN and are on a stable dose of VEN
+
+Exclusion Requirements 
+You cannot participate in this study if you have any of the following criteria:
+- Are pregnant or nursing
+- Unable to swallow pills 
+- Have received any investigational agents during the previous 30 days or will be receiving any other investigational agents at any time during the study.","This is a phase I, dose-escalation, open-label clinical trial determining the safety and tolerability of adding Pitavastatin to Venetoclax (VEN) in subjects with chronic lymphocytic leukemia (CLL) or acute myeloid leukemia (AML). These are subjects who are newly diagnosed subjects with AML who are ineligible for intensive induction chemotherapy, relapsed/refractory CLL or newly diagnosed CLL.",I,Treatment,Adults,National,,,2023-02-28T15:49:11,CFCCC,UCI,Department of Defense,Lymphoid Leukemia,"Leukemia, other",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+UCI-18-136,Blood Collection Protocol for the Analysis of Exosomes in Patients with Breast Cancer,NCT99999999,Blood Collection Protocol for the Analysis of Exosomes in Patients with Breast Cancer,Ritesh Parajuli,OPEN TO ACCRUAL,Adults,"Please note this may not be a complete list of eligibility criteria. We have included a few examples of
+study criteria to help you better understand how your eligibility in the study will be determined; your study
+team will go through the study eligibility criteria with you to verify if you qualify for participation in this
+study.
+
+You can participate in this study if you:
+- Are female
+- Over the age of 18
+- Ability to understand and the willingness to sign a written informed consent document
+- Consent to be in the study, signed and dated an approved consent form, which conforms to federal and institutional guidelines.
+- For cancer patients, you must have either Stage I, Stage II, Stage III or Stage IV Breast cancer
+- For cancer patients, you must have either hormone Receptor +, Her-2 receptor positive, triple
+positive or triple negative breast cancer
+
+Exclusion Requirements
+You cannot participate in this study if you
+- Are physically or mentally incapable to give verbal or written consent
+- For cancer patients: have other active cancers expect for cured skin and in situ cervical cancer
+- For non-cancer participants: history of cancer diagnosis or prior exposure to chemotherapy
+agents","Scientists and clinicians at this institution are working together to discover new ways to monitor cancer
+and find tests that could detect recurrence early on. The purpose of this research study is to determine
+a group of particles in the blood called exosomes that may be associated with response to treatment
+or could predict recurrence and side effects.",N/A,Basic Science,Adults,Local,,,2021-12-01T13:51:12,CFCCC,UCI,Hitachi Chemical Research Center,Breast,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ALLIANCE-N0577,Phase III Intergroup Study of Radiotherapy with Concomitant and Adjuvant Temozolomide versus Radiotherapy with Adjuvant PCV Chemotherapy in Patients with 1p/19q Co-deleted Anaplastic Glioma or Low Grade Glioma,NCT00887146,Ph III: Radio w/ Concom & Adj TMZ vs. Radio w/ Adj PCV Chemo in Pts w/ 1p/19q Anapl. or Low-g Glioma,Xiao-Tang Kong,OPEN TO ACCRUAL,Adults,"Inclusion Criteria:
+
+- Histological evidence of WHO grade III anaplastic glioma or WHO grade II low grade glioma 
+- Surgery (partial or gross total resection or biopsy) must be performed more than 2 weeks prior to registration; patient must have recovered adequately from the effects of surgery.
+- Willingness and ability to personally complete neurocognitive testing (without assistance) and willingness to complete the QOL testing, (either personally or with assistance)
+
+Exclusion Criteria: 
+
+- Pregnant and/or nursing women
+- Subjects of childbearing potential who are unwilling to employ adequate contraceptive method during treatment and 6 months after chemotherapy treatments
+- Immunocompromised patients or HIV Positive Patients Receiving Retroviral Medications","Radiation therapy uses high-energy x-rays to kill tumor cells. Drugs used in chemotherapy, such as temozolomide, work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. It is not yet known whether giving radiation with concomitant and adjuvant temozolomide versus radiation with adjuvant PCV is more effective in treating anaplastic glioma or low grade glioma.",III,Treatment,Adults,Local,,,2021-05-25T13:31:12,CFCCC,Alliance,,Brain and Nervous System,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+UCI-19-49,Phase II Study of Cabozantinib Combined with Ipilimumab/Nivolumab and Transarterial Chemoembolization (TACE) in Patients with Hepatocellular Carcinoma (HCC) Who are not Candidates for Curative Intent Treatment,NCT04472767,Ph II of Cabo. w/ Ipi./Nivo. and TACE in Pts w/ HCC (not candidates for Curative Tx),Farshid Dayyani,OPEN TO ACCRUAL,Adults,"Please note this may not be a complete list of eligibility criteria. We have included a few examples of study criteria to help you better understand how your eligibility in the study will be determined; your study team will go through the study eligibility criteria with you to verify if you qualify for participation in this study.
+
+Inclusion Requirements
+You can participate in this study if you satisfy following criteria:
+- At least 18 years of age
+- Biopsy proven or imaging based diagnosis of hepatocellular carcinoma (""primary liver cancer"")
+- Not a candidate for surgery or curative treatment based on your doctor's assessment
+
+Exclusion Requirements
+You cannot participate in this study if you have any of the following criteria:
+- Previous treatment with cabozantinib or immunotherapy
+- Any active infection (except for controlled Hepatitis B or C) or other cancers
+- Pregnant or nursing","This is a phase 2 single-arm, open-label clinical trial determining efficacy of cabozantinib in combination with ipilimumab/nivolumab and transarterial chemoembolization (TACE) in subjects with hepatocellular carcinoma (HCC). These are subjects who are not candidates for curative intent treatment.",II,Treatment,Adults,Local,,,2021-12-07T17:16:04,CFCCC,UCI,"Exelixis, Inc.",Liver,,,,,,,,Anti Cancer Challenge Grant,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+UCI-19-55,A Non-Interventional Biomarker Study on the Molecular Evaluation of Archival Tumor Tissue in Subjects with Solid Tumors Including Gastric and Gastroesophageal Junction Adenocarcinoma,,A Non-Interventional Biomarker Study on the Molecular Evaluation of Tumor Tissue in Pts w/ GastricCa,Farshid Dayyani,OPEN TO ACCRUAL,Adult,"Inclusion Criteria:
+
+- Patients with histologically or cytologically confirmed locally advanced or metastatic gastric adenocarcinoma or GEJ adenocarcinoma at the time of enrollment.
+- Patients who have available archival tumor tissue sample from biopsy or tumor resection not older than 20 years and adequate for central laboratory testing of MUC17 and CLDN18.2, with corresponding pathology report. 
+
+Exclusion Criteria:
+
+- There are no exclusion criteria for this study as long as the subject meets all inclusion criteria.","The purpose of this research study is to study previously collected tumor tissue that will help in identifying potential patients with MUC17 and/or CLDN18.2 positive gastric or gastroesophageal junction (GEJ) adenocarcinoma.. The results of this study may be used later for the identification of subjects who may be referred to interventional studies at UCI with investigational drugs, AMG 199 or AMG 910.",N/A,Screening,Adults,National,,,2022-12-07T08:37:35,CFCCC,Amgen Inc.,,"Lip, Oral Cavity and Pharynx",Anus,Lung,Other Respiratory and Intrathoracic Organs,Bones and Joints,Brain and Nervous System,Thyroid,Liver,,Other Skin,Other Urinary,"Melanoma, Skin",Small Intestine,Other Digestive Organ,Ovary,Other Male Genital,Corpus Uteri,Other Female Genital,Unknown Sites,Breast,Stomach,Rectum,Larynx,Kidney,Mycosis Fungoides,Eye and Orbit,Ill-Defined Sites,Esophagus,Soft Tissue,Cervix,Prostate,Urinary Bladder,Colon,Pancreas,Other Endocrine System,Kaposi's Sarcoma,,,,,,,,,,,,,,,,
+SWOG-S1806,Phase III Randomized Trial of Concurrent Chemoradiotherapy with or Without Atezolizumab in Localized Muscle Invasive Bladder Cancer,NCT03775265,Ph III Trial of Concurrent Chemoradiation w/ or w/o Atezolizumab for Localized MIBC,Ramy Yaacoub,OPEN TO ACCRUAL,Adult,"Inclusion Criteria:
+
+- Histologically proven urothelial carcinoma of the bladder within 120 days prior to the start of  the study
+- No prior treatment for muscle invasive bladder cancer including neoadjuvant chemotherapy for the current tumor
+- No clinically significant liver disease, including, but not limited to, active viral, alcoholic or other autoimmune hepatitis, or inherited liver disease.
+
+Exclusion Criteria:
+
+- Major surgical procedure within 28 days prior to the start of the study
+- Patients who have received a live, attenuated vaccine (such as a flu shot) within 4 weeks prior to participation
+- Patients with active infection requiring oral or IV antibiotics within 14 days prior to participation","This phase III trial studies how well chemotherapy and radiation therapy work with or without atezolizumab in treating patients with localized muscle invasive bladder cancer. Radiation therapy uses high energy rays to kill tumor cells and shrink tumors. Chemotherapy drugs, such as gemcitabine, cisplatin, fluorouracil and mitomycin-C, work in different ways to stop the growth of cancer cells, either by killing the cells, by stopping them from dividing, or by stopping them from spreading. Giving chemotherapy with radiation therapy may kill more tumor cells. Immunotherapy with monoclonal antibodies, such as atezolizumab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells to grow and spread. Giving atezolizumab with radiation therapy and chemotherapy may work better in treating patients with localized muscle invasive bladder cancer compared to radiation therapy and chemotherapy without atezolizumab.",III,Treatment,Adults,National,,,2021-02-22T10:48:09,CFCCC,SWOG,,Urinary Bladder,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
