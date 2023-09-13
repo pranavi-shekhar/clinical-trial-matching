@@ -1,21 +1,13 @@
 import xml.etree.ElementTree as ET
 import pandas as pd
 import os
-import sys
 import streamlit as st
-from streamlit_chat import message
 import pandas as pd
-from langchain.agents import create_pandas_dataframe_agent
 from langchain.llms import OpenAI
-from langchain.document_loaders import UnstructuredXMLLoader
-from langchain.document_loaders import TextLoader
 from langchain.document_loaders.csv_loader import CSVLoader
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.chat_models import ChatOpenAI
-from langchain.chains import ConversationalRetrievalChain
-from langchain.vectorstores import FAISS
 from langchain.vectorstores import Chroma
-from langchain.agents import Tool
 from langchain.chains import RetrievalQA
 from langchain.agents import initialize_agent
 from langchain.agents import AgentType
@@ -23,9 +15,19 @@ from langchain.memory import ConversationBufferMemory
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 from langchain.callbacks.base import BaseCallbackHandler
 from langchain.memory.chat_message_histories import StreamlitChatMessageHistory
-
+from langchain.prompts import MessagesPlaceholder
+from langchain.prompts import SystemMessagePromptTemplate
+from langchain.prompts import HumanMessagePromptTemplate
+from langchain.prompts import ChatPromptTemplate
+from langchain.agents import ZeroShotAgent, AgentExecutor, Tool
+from langchain import LLMChain
+from langchain.callbacks.streaming_stdout_final_only import (
+    FinalStreamingStdOutCallbackHandler,
+)
 
 # Classes to handle streaming
+
+
 class StreamHandler(BaseCallbackHandler):
     def __init__(self, container: st.delta_generator.DeltaGenerator, initial_text: str = ""):
         self.container = container
@@ -134,16 +136,68 @@ def load_embeddings(path_to_embeddings, openai_api_key, docs):
     return vectordb
 
 
-def create_chain(model, temperature, vectordb):
+def create_agent(model, temperature, vectordb):
+
+    # Define custom prompt for the RetrievalQA chain
+    general_system_template = """ 
+    Given a specific context, please give the most relevant answer to the question using the context given. If there is no direct answer, try to give the closest match before saying you don't know the answer. If the request is for a clinical trial then look for the keyword and any relevant keywords in 'Disease sites' before saying nothing exists. For ex: If the user asks about trials related to the Nose, but it doesn't exist, look for trials in the closest surrounding areas like nose/throat and suggest the same. Only answer based on the context, nothing outside of it.
+    ----
+    {context}
+    ----
+    """
+    general_user_template = "Question:```{question}```"
+    messages = [
+        SystemMessagePromptTemplate.from_template(general_system_template),
+        HumanMessagePromptTemplate.from_template(general_user_template)
+    ]
+    qa_prompt = ChatPromptTemplate.from_messages(messages)
+
+    # Define LLM
     llm = ChatOpenAI(
         temperature=temperature,
-        model=model, streaming=True, callbacks=[StreamingStdOutCallbackHandler()])
+        model=model, streaming=True, callbacks=[FinalStreamingStdOutCallbackHandler()])
 
-    memory = ConversationBufferMemory(
-        memory_key='chat_history',
-        return_messages=True)
+    # Create tool using LLM chain + retriever
+    tools = []
+    tools.append(
+        Tool(
 
-    chain = ConversationalRetrievalChain.from_llm(
-        llm=llm, retriever=vectordb.as_retriever(), get_chat_history=lambda h: h, memory=memory)
+            name="search_clinical_trials_database",
+            description="useful when you want to answer questions about the clinical trial database",
+            func=RetrievalQA.from_chain_type(
+                llm=llm,
+                retriever=vectordb.as_retriever(),
+                chain_type_kwargs={"prompt": qa_prompt}),
+        )
+    )
 
-    return chain
+    # Define custom prompt for agent
+    prefix = """Have a conversation with a human, answering the following questions as best you can. Check the 'disease sites' column to see if a trial matches, as an extra precaution. You have access to the following tools:"""
+    suffix = """Begin!"
+
+    {chat_history}
+    Question: {input}
+    {agent_scratchpad}"""
+
+    prompt = ZeroShotAgent.create_prompt(
+        tools,
+        prefix=prefix,
+        suffix=suffix,
+        input_variables=["input", "chat_history", "agent_scratchpad"],
+    )
+
+    # Specify memory to implement chat history
+    memory = ConversationBufferMemory(memory_key="chat_history")
+
+    # Define agent
+    llm_chain = LLMChain(llm=OpenAI(temperature=0),
+                         prompt=prompt)
+
+    agent = ZeroShotAgent(llm_chain=llm_chain, tools=tools)
+
+    agent_chain = AgentExecutor.from_agent_and_tools(
+        agent=agent,
+        tools=tools,
+        memory=memory)
+
+    return agent_chain
