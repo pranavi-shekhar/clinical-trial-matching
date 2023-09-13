@@ -24,6 +24,8 @@ from langchain import LLMChain
 from langchain.callbacks.streaming_stdout_final_only import (
     FinalStreamingStdOutCallbackHandler,
 )
+from langchain.agents.agent_toolkits import create_conversational_retrieval_agent, create_retriever_tool
+
 
 # Classes to handle streaming
 
@@ -137,67 +139,20 @@ def load_embeddings(path_to_embeddings, openai_api_key, docs):
 
 
 def create_agent(model, temperature, vectordb):
+    # Create tool
+    tool = create_retriever_tool(
+        vectordb.as_retriever(),
+        "search_clinical_trials_database",
+        "Searches and returns documents regarding clinical trials")
 
-    # Define custom prompt for the RetrievalQA chain
-    general_system_template = """ 
-    Given a specific context, please give the most relevant answer to the question using the context given. If there is no direct answer, try to give the closest match before saying you don't know the answer. If the request is for a clinical trial then look for the keyword and any relevant keywords in 'Disease sites' before saying nothing exists. For ex: If the user asks about trials related to the Nose, but it doesn't exist, look for trials in the closest surrounding areas like nose/throat and suggest the same. Only answer based on the context, nothing outside of it.
-    ----
-    {context}
-    ----
-    """
-    general_user_template = "Question:```{question}```"
-    messages = [
-        SystemMessagePromptTemplate.from_template(general_system_template),
-        HumanMessagePromptTemplate.from_template(general_user_template)
-    ]
-    qa_prompt = ChatPromptTemplate.from_messages(messages)
+    tools = [tool]
 
-    # Define LLM
-    llm = ChatOpenAI(
-        temperature=temperature,
-        model=model, streaming=True, callbacks=[FinalStreamingStdOutCallbackHandler()])
+    # Define llm
+    llm = ChatOpenAI(temperature=temperature,
+                     model=model,
+                     streaming=True, callbacks=[StreamingStdOutCallbackHandler()])
 
-    # Create tool using LLM chain + retriever
-    tools = []
-    tools.append(
-        Tool(
+    # Create agent
+    agent_executor = create_conversational_retrieval_agent(llm, tools)
 
-            name="search_clinical_trials_database",
-            description="useful when you want to answer questions about the clinical trial database",
-            func=RetrievalQA.from_chain_type(
-                llm=llm,
-                retriever=vectordb.as_retriever(),
-                chain_type_kwargs={"prompt": qa_prompt}),
-        )
-    )
-
-    # Define custom prompt for agent
-    prefix = """Have a conversation with a human, answering the following questions as best you can. Check the 'disease sites' column to see if a trial matches, as an extra precaution. You have access to the following tools:"""
-    suffix = """Begin!"
-
-    {chat_history}
-    Question: {input}
-    {agent_scratchpad}"""
-
-    prompt = ZeroShotAgent.create_prompt(
-        tools,
-        prefix=prefix,
-        suffix=suffix,
-        input_variables=["input", "chat_history", "agent_scratchpad"],
-    )
-
-    # Specify memory to implement chat history
-    memory = ConversationBufferMemory(memory_key="chat_history")
-
-    # Define agent
-    llm_chain = LLMChain(llm=OpenAI(temperature=0),
-                         prompt=prompt)
-
-    agent = ZeroShotAgent(llm_chain=llm_chain, tools=tools)
-
-    agent_chain = AgentExecutor.from_agent_and_tools(
-        agent=agent,
-        tools=tools,
-        memory=memory)
-
-    return agent_chain
+    return agent_executor

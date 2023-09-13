@@ -40,8 +40,8 @@ if prompt := st.chat_input("Ask me anything to help you find the right trial!"):
 
     with st.chat_message("assistant"):
         stream_handler = StreamHandler(st.empty())
-        response = st.session_state.agent.run(
-            input=prompt, callbacks=[stream_handler])
+        response = st.session_state.agent(
+            {"input": prompt}, callbacks=[stream_handler])['output']
 
     st.session_state.messages.append(
         {"role": "assistant", "content": response})
