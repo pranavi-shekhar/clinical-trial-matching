@@ -7,7 +7,7 @@ from langchain.llms import OpenAI
 from langchain.document_loaders.csv_loader import CSVLoader
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.chat_models import ChatOpenAI
-from langchain.vectorstores import Chroma
+from langchain.vectorstores import FAISS
 from langchain.chains import RetrievalQA
 from langchain.agents import initialize_agent
 from langchain.agents import AgentType
@@ -127,13 +127,12 @@ def load_embeddings(path_to_embeddings, openai_api_key, docs):
     # Use chroma to save/load embeddings
     if os.path.isdir(path_to_embeddings):
         print("Loading stored embeddings...")
-        vectordb = Chroma(persist_directory="./embeddings",
-                          embedding_function=embeddings)
+        vectordb = FAISS.load_local(path_to_embeddings, embeddings)
+
     else:
         print("Generating embeddings...")
-        vectordb = Chroma.from_documents(
-            documents=docs, embedding=embeddings, persist_directory="./embeddings")
-        vectordb.persist()
+        vectordb = FAISS.from_documents(documents=docs, embedding=embeddings)
+        vectordb.save_local(path_to_embeddings)
 
     return vectordb
 
