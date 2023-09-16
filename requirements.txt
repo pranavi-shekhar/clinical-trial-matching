@@ -3,3 +3,4 @@ pandas==2.0.1
 streamlit_chat==0.1.1
 openai
 faiss-cpu
+tiktoken
