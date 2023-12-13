@@ -1,7 +1,7 @@
 # Clinical trial matching
 A conversational chat service to help query UCI's clinical trial databaase, predominantly built using OpenAI and Langchian with a Streamlit UI. Prototype can be found [here](https://uci-clinical-trial-matching.streamlit.app/).
 
-Quickstart:
+## Quickstart:
 
 1. Install the packages provided in ![requirements.txt](/requirements.txt). You'll also need the latest version of **streamlit**.
 2. All the requsite datasets can be found inside _data_.
