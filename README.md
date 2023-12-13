@@ -5,7 +5,7 @@ A conversational chat service to help query UCI's clinical trial databaase, pred
 
 1. Install the packages provided in ![requirements.txt](/requirements.txt). You'll also need the latest version of **streamlit**.
 2. All the requsite datasets can be found inside _data_.
-3. The code that is currently deployed on streamlit is contained in _ui.py_ and _util.py_, with all the versioning controlled by _requirements.txt_ - modify these with care.
+3. The code that is currently deployed on streamlit is contained in ![ui.py](/ui.py), ![config.py](/config.py) and ![util.py](/util.py), with all the versioning controlled by ![requirements.txt](/requirements.txt) - modify these with care.
 4. Set your OPENI_API_KEY as an environment variable:
 
    ```
